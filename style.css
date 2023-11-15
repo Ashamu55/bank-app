@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#div {
+    width: 100%;
+    background-color: #fdf6f2;
+    padding: 10px;
+    word-spacing: 8px;
+}
+
+#div>h3 {
+    margin-top: 5px;
+    color: red;
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+
+#mind {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+    /* animation: mind 50s 1ms forwards infinite; */
+    /* transform: translate(400px); */
+}
+
+/* @keyframes mind{ */
+/* from{ */
+/* transform: translate(100%); */
+/* } */
+/* to{ */
+/* transform: translate(-100%); */
+/* } */
+/* } */
+#main {
+    display: flex;
+}
+
+#div1 {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(39, 39, 250);
+    border-bottom-right-radius: 100px;
+    padding-left: 300px;
+}
+
+#div1>a {
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#div2 {
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(39, 39, 250);
+    text-align: right;
+    padding-right: 160px;
+    /* margin-left: 960px; */
+    border-top-left-radius: 100px;
+}
+
+#div2>button{
+    padding: 2px;
+    width: 150px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(39, 39, 250);
+    color: white;
+}
+
+#div2>button:hover{
+    background-color: white;
+    color: #dd4f05;
+    border-radius: 100px;
+}
+
+#oh-new{
+    display: flex;
+}
+
+#new{
+    margin: 100px 200px;
+}
+
+#new>p{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+#new>h2{
+    margin-left: 100px;
+    margin-right: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+#img{
+    margin-top: 20px;
+    margin-right: 500px;
+    /* width: 400px; */
+}

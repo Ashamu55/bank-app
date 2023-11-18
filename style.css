@@ -205,3 +205,19 @@ main{
     margin-left: 25%;
     border-radius: 10px;
 }
+
+#start{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#imag{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#imag>div:hover{
+    border: 1px solid #dd4f05;
+}

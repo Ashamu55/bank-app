@@ -219,5 +219,20 @@ main{
 }
 
 #imag>div:hover{
-    border: 1px solid #dd4f05;
+    border: 1px solid white;
+}
+
+#get{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#get>button{
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dd4f05;
+    color: white;
+    border-style: double;
 }

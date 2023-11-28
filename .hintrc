@@ -25,6 +25,12 @@
       {
         "duplicate-id": "off"
       }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
     ]
   }
 }

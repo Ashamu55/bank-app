@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  
+
 }
 
 #div {
@@ -59,12 +59,12 @@
     border-top-left-radius: 100px;
 }
 
-#div2>a{
+#div2>a {
     text-decoration: none !important;
     color: white;
 }
 
-#div2>button{
+#div2>button {
     padding: 2px;
     width: 150px;
     margin-left: 60px;
@@ -77,25 +77,25 @@
     color: white;
 }
 
-#div2>button:hover{
+#div2>button:hover {
     background-color: white;
-    color:#950b3d;
+    color: #950b3d;
     border-radius: 100px;
 }
 
-#oh-new{
+#oh-new {
     display: flex;
 }
 
-#new{
+#new {
     /* margin: 100px 300px; */
     margin-top: 90px;
     margin-left: 400px;
     margin-right: 50px;
-    
+
 }
 
-#new>p{
+#new>p {
     margin-left: 50px;
     margin-right: 10px;
     margin-top: 20px;
@@ -103,14 +103,14 @@
     font-size: 20px;
 }
 
-#new>h2{
+#new>h2 {
     margin-left: 100px;
     margin-right: 200px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
 }
 
-#new>button{
+#new>button {
     margin-left: 70px;
     width: 180px;
     padding: 10px;
@@ -121,34 +121,42 @@
     font-weight: 700;
 }
 
-#img{
+#img {
     margin-top: 20px;
     margin-right: 300px;
 }
 
-#why{
+.scrib{
+    width: 30px;
+    height: 40px;
+    background-color: #950b3d;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#why {
     text-align: center;
     padding-top: 50px;
 }
 
-#why>h3{
+#why>h3 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
 }
 
-main{
+main {
     width: 100%;
     height: 400px;
     background-color: #fdf6f2;
 }
 
-#oh-sec{
+#oh-sec {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-#sec{
+#sec {
     width: 350px;
     padding: 15px;
     border: 2px solid #dd4f05;
@@ -157,66 +165,66 @@ main{
     margin-top: 20px;
 }
 
-#sec>svg{
+#sec>svg {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-#sec>svg:hover{
+#sec>svg:hover {
     color: #dd4f05;
 }
 
-#sec>h5{
+#sec>h5 {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-#start{
+#start {
     text-align: center;
     margin-top: 30px;
 }
 
-#start>h3{
+#start>h3 {
     font-weight: bold;
     font-size: 40px;
 }
 
-#imag{
+#imag {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-#ver:hover{
+#ver:hover {
     transition: all 1s ease-in;
     scale: 110% !important;
 }
 
-#ver>h4{
+#ver>h4 {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
 }
 
-#get{
+#get {
     text-align: center;
     margin-top: 50px;
 }
 
-#get>button{
+#get>button {
     width: 200px;
     padding: 8px;
     border-radius: 10px;
     border: none;
-    background-color:#950b3d;
+    background-color: #950b3d;
     color: white;
     border-style: double;
 }
 
-#foot{
+#foot {
     margin-top: 10px;
     background-color: #181818;
     display: flex;
@@ -225,55 +233,55 @@ main{
     gap: 400px;
 }
 
-#Company{
+#Company {
     color: white;
 }
 
-#Company>p>a{
+#Company>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-#Company>p>a:hover{
+#Company>p>a:hover {
     color: #950b3d !important;
 }
 
-#Partner{
+#Partner {
     color: white;
 }
 
-#Partner>p>a{
+#Partner>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-#Partner>p>a:hover{
+#Partner>p>a:hover {
     color: #950b3d !important;
 }
 
-#quick{
+#quick {
     color: white;
 }
 
-#quick>p>a{
+#quick>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-#quick>p>a:hover{
+#quick>p>a:hover {
     color: #950b3d !important;
 }
 
-#support{
+#support {
     color: white;
 }
 
-#support>p>a{
+#support>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-#support>p>a:hover{
+#support>p>a:hover {
     color: #950b3d !important;
 }
 
@@ -283,17 +291,17 @@ main{
 
 
 
-     /* About */
-     *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+/* About */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-#about{
+#about {
     width: 100%;
     height: 700px;
-    background-color:  #950b3d;
+    background-color: #950b3d;
     background-image: url(image/banner-c0c076bf.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,18 +309,18 @@ main{
     text-align: center;
 }
 
-#about>h1{
+#about>h1 {
     color: white;
 }
 
-strong{
+strong {
     font-family: sans-serif;
     font-size: 20px;
 }
 
-#body{
+#body {
     width: 1000px;
-    height: 700px;
+    height: 750px;
     background-color: white;
     margin-left: 25%;
     border-radius: 10px;
@@ -321,13 +329,85 @@ strong{
     padding-right: 40px;
 }
 
-#body>p{
+#body>p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-style: italic;
     margin-top: 30px;
     word-spacing: 10px;
 }
+
+.comp>h2{
+    margin-top: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    margin-left: 820px;
+    margin-bottom: 80px;
+    font-size: 50px !important;
+}
+
+#step1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.entrep>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    color: #950b3d;
+    margin-left: 00px;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-left: 500px;
+}
+
+.entrep>p{
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-left: 500px;
+    margin-right: 90px;
+    font-weight: bold;
+}
+
+#colla{
+    margin-right: 400px;
+}
+
+#step2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#colla1{
+    margin-left: 400px;
+}
+
+.entrep1>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+    sans-serif;
+    color: #950b3d;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-right: 00px;
+}
+
+.entrep1>p{
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-right:400px;
+    margin-left: 100px;
+
+}
+
+
+
+
+
 
 /* security */
 
@@ -336,8 +416,8 @@ strong{
     background-color: #fdf6f2;
     padding: 10px;
     word-spacing: 8px;
-    border: solid 1px  #950b3d;
-    box-shadow:1px 1px 2px #950b3d;
+    border: solid 1px #950b3d;
+    box-shadow: 1px 1px 2px #950b3d;
 }
 
 .div>h3 {
@@ -355,7 +435,7 @@ strong{
     font-size: 20px;
 }
 
-.sec{
+.sec {
     width: 100%;
     height: 300px;
     background-image: url(image/personal-e-banking-banner.jpg);
@@ -363,7 +443,7 @@ strong{
     background-position: bottom;
 }
 
-.dive{
+.dive {
     display: flex;
     margin-top: 2px;
     margin-left: 400px;
@@ -371,40 +451,46 @@ strong{
     font-size: 25px;
 }
 
-.dive>p>a{
+.dive>p>a {
     text-decoration: none;
     padding-left: 8px;
     color: black;
 }
 
-.dive>p>a:hover{
-    color:  #950b3d;
+.dive>p>a:hover {
+    color: #950b3d;
 }
 
-.dive>p{
+.dive>p {
     padding-left: 10px;
 }
 
-.sec>h1{
+.sec {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+}
+
+.sec>h1 {
     margin-left: 430px;
     margin-top: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 65px;
 }
 
-.safeguard>h2{
+.safeguard>h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 400px;
     margin-top: 30px;
     font-size: 30px;
 }
 
-.safeguard>h2:hover{
+.safeguard>h2:hover {
     text-decoration: underline;
-    color:  #950b3d;
+    color: #950b3d;
 }
 
-.safeguard>p{
+.safeguard>p {
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 600px;
@@ -412,46 +498,46 @@ strong{
     font-size: 18px;
 }
 
-.tips>h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
-    sans-serif;
+.tips>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
     margin-left: 400px;
     margin-top: 30px;
     font-size: 30px;
 }
 
-.tips>h3:hover{
+.tips>h3:hover {
     text-decoration: underline;
-    color:  #950b3d;
+    color: #950b3d;
 }
 
-.tips>li{
+.tips>li {
     margin-left: 400px;
     margin-right: 600px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 30px;
 }
 
-.hr{
+.hr {
     width: 900px;
     margin-left: 400px;
     margin-top: 80px;
 }
 
-.fraud>h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
-    sans-serif;
+.fraud>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
     margin-left: 400px;
     margin-top: 50px;
     font-size: 30px;
 }
 
-.fraud>h3:hover{
+.fraud>h3:hover {
     text-decoration: underline;
-    color:  #950b3d;
+    color: #950b3d;
 }
 
-.fraud>p{
+.fraud>p {
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 600px;
@@ -459,22 +545,22 @@ strong{
     font-size: 18px;
 }
 
-hr{
+hr {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 200px;
     margin-left: 400px;
 }
 
-.email>h4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
-    sans-serif;
+.email>h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
     margin-left: 400px;
     margin-top: 50px;
     font-size: 20px;
 }
 
-.email>p{
+.email>p {
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 600px;
@@ -482,15 +568,15 @@ hr{
     font-size: 16px;
 }
 
-.web>h4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
-    sans-serif;
+.web>h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
     margin-left: 400px;
     margin-top: 50px;
     font-size: 20px;
 }
 
-.web>p{
+.web>p {
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 600px;
@@ -498,7 +584,7 @@ hr{
     font-size: 16px;
 }
 
-.foot{
+.foot {
     margin-top: 10px;
     background-color: #181818;
     display: flex;
@@ -507,138 +593,177 @@ hr{
     gap: 400px;
 }
 
-.Company{
+.Company {
     color: white;
 }
 
-.Company>p>a{
+.Company>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-.Company>p>a:hover{
+.Company>p>a:hover {
     color: #950b3d !important;
 }
 
-.Partner{
+.Partner {
     color: white;
 }
 
-.Partner>p>a{
+.Partner>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-.Partner>p>a:hover{
+.Partner>p>a:hover {
     color: #950b3d !important;
 }
 
-.quick{
+.quick {
     color: white;
 }
 
-.quick>p>a{
+.quick>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-.quick>p>a:hover{
+.quick>p>a:hover {
     color: #950b3d !important;
 }
 
-.support{
+.support {
     color: white;
 }
 
-.support>p>a{
+.support>p>a {
     color: white !important;
     text-decoration: none;
 }
 
-.support>p>a:hover{
+.support>p>a:hover {
     color: #950b3d !important;
 }
 
-
-
-
-
-
-@media(max-width:780px){
- #main{
-    width: 100%;
-    /* display: none; */
- }
- #div2> button{
-    background-color: transparent;
-    margin-left: 0px;
- }
-#div1>a{
-    margin-left: 30px;
-    margin-top: 80px;
+.hrr{
+    width: 900px;
 }
- #div1{
-    width: 50%;
-    padding-left:0px;
- }
- #div2{
-    justify-content: space-around;
-    align-items: center;
-    width:50%;
-    font-size: 7px;
-    display: flex;
-  }
-  #div{
-    display: none;
-  }
-  #oh .new{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-  }
-  #new{
-    margin-left:30px;
-    margin-right:0px;
-  }
-  #new h2{
-    width: 100%;
-  }
-  #new h2{
-    margin-left: 0px;
-    font-size: 28px;
-    width: 100%;
-  }
-  #new p{
-    font-size: 17px;
-    margin-left: 0px;
-  }
-  #new button{
-    margin-left: 0px;
+
+.resp>h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+        sans-serif;
+    margin-left: 400px;
     margin-top: 30px;
-  }
-  #img img{
-    margin-top: 50px;
-    width: 340px;
-  }
-  #imag img{
-    width: 150px;
-  }
-  #oh-sec{
-    gap: 5px;
-    flex-direction: column;
-  }#sec{
-    margin-left: 100px;
-    width: 550px;
-    height: 200px;
-  }
-  #foot{
-    gap: 50px;
-    /* display: none; */
-  }
-main{
-    width: 100%;
-    overflow-x: hidden;
-    height: 800px;
+    font-size: 25px;
 }
+
+.resp>p {
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+@media(max-width:780px) {
+    #main {
+        width: 100%;
+        /* display: none; */
+    }
+
+    #div2>button {
+        background-color: transparent;
+        margin-left: 0px;
+    }
+
+    #div1>a {
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+    #div1 {
+        width: 50%;
+        padding-left: 0px;
+    }
+
+    #div2 {
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        font-size: 7px;
+        display: flex;
+    }
+
+    #div {
+        display: none;
+    }
+
+    #oh .new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    #new {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    #new h2 {
+        width: 100%;
+    }
+
+    #new h2 {
+        margin-left: 0px;
+        font-size: 28px;
+        width: 100%;
+    }
+
+    #new p {
+        font-size: 17px;
+        margin-left: 0px;
+    }
+
+    #new button {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    #img img {
+        margin-top: 50px;
+        width: 340px;
+    }
+
+    #imag img {
+        width: 150px;
+    }
+
+    #oh-sec {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #sec {
+        margin-left: 100px;
+        width: 550px;
+        height: 200px;
+    }
+
+    #foot {
+        gap: 50px;
+        /* display: none; */
+    }
+
+    main {
+        width: 100%;
+        overflow-x: hidden;
+        height: 800px;
+    }
 }

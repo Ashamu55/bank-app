@@ -410,6 +410,11 @@ strong {
 
 
 /* security */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .div {
     width: 100%;
@@ -692,7 +697,14 @@ hr {
     margin-bottom: 30px;
 }
 
+
+
 /* Help Center */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 

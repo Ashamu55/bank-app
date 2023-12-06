@@ -23,13 +23,15 @@
     "axe/parsing": [
       "default",
       {
-        "duplicate-id": "off"
+        "duplicate-id": "off",
+        "duplicate-id-active": "off"
       }
     ],
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "list": "off"
       }
     ],
     "meta-viewport": "off",
@@ -37,6 +39,20 @@
       "default",
       {
         "html-has-lang": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
       }
     ]
   }

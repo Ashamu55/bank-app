@@ -1,7 +1,7 @@
 const disp =() =>{
-    // window.location.href = `about.html`;
+    window.location.href = `signin.html`;
 }
 
 const disp2 =() =>{
-    // window.location.href = `about.html`;
+    window.location.href = `signup.html`;
 }
